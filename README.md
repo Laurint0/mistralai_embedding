@@ -1,26 +1,39 @@
-# My plugin
+# MistralAI Embeddings Plugin for CheshireCat
 
-[![awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=awesome+plugin&color=383938&style=for-the-badge&logo=cheshire_cat_ai)](https://)  
-[![Awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=Awesome+plugin&color=000000&style=for-the-badge&logo=cheshire_cat_ai)](https://)  
-[![awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=awesome+plugin&color=F4F4F5&style=for-the-badge&logo=cheshire_cat_black)](https://)
+This repository contains a plugin for [CheshireCat](https://github.com/cheshire-cat-ai/core) that integrates the MistralAI API for using the `mistral-embed` embedding model.
 
-Write here all the useful information about your plugin.
+## Features
 
-This repository is the template to automate the release of official Cheshire Cat AI plugins. 
+- Allows CheshireCat to utilize the MistralAI embedding model.
+- Follows the guidelines provided by CheshireCat for plugin integration.
+- Implemented with the support of ChatGPT and successfully tested.
+
+## Requirements
+
+- A working instance of [CheshireCat](https://github.com/cheshire-cat-ai/core).
+- A valid API key for MistralAI.
+- Python 3.8 or higher.
+     ```
 
 ## Usage
 
-1. Create a new repository clicking on the `Use this template` button.
-2. Clone your new repo directly in the Cat's `plugins` folder.
-3. Run the `setup.py` script:
-```bash
-python setup.py
-```
-The script will prompt you to write the name of your plugin and make an initial setup setting the name in the files.
+1. Start CheshireCat ensuring the plugin is correctly loaded.
+2. Configure CheshireCat to use the MistralAI Embeddings plugin according to the framework's instructions.
+3. Run tests to verify proper functionality.
 
-4. Start developing!
+## Contributions
 
-> **Important**
-> A new release of your plugin is triggered every time you set a new `version` in the `plugin.json` file.
-> Please, remember to set it correctly every time you want to release an update.
+If you want to improve the plugin, feel free to open a PR or report issues in the Issues section.
+
+## License
+
+This project is released under the MIT license.
+
+---
+
+### Contact
+
+If you have any questions or suggestions, you can contact me via GitHub or open an Issue in the repository.
+
+Enjoy embedding with MistralAI and CheshireCat! 😺🚀
 
