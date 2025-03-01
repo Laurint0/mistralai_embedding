@@ -13,7 +13,6 @@ This repository contains a plugin for [CheshireCat](https://github.com/cheshire-
 - A working instance of [CheshireCat](https://github.com/cheshire-cat-ai/core).
 - A valid API key for MistralAI.
 - Python 3.8 or higher.
-     ```
 
 ## Usage
 
