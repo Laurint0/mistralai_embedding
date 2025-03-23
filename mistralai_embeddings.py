@@ -40,3 +40,4 @@ def factory_allowed_embedders(allowed, cat) -> List:
     """Hook per aggiungere l'embedder MistralAI alla lista degli embedders consentiti."""
     allowed.append(MistralAIEmbedderConfig)
     return allowed
+#fatto da laurint :D
